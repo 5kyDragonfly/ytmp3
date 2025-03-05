@@ -13,7 +13,7 @@ def send_download_request(youtube_urls):
     """
     try:
         # Replace this with your actual server endpoint
-        server_url = "http://localhost:5000/download"
+        server_url = "https://285f-2001-4451-43c2-5d00-e80b-628c-c50f-f71b.ngrok-free.app"
 
         payload = {
             "urls": youtube_urls,
