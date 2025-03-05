@@ -35,7 +35,7 @@ def send_download_request(youtube_urls):
         return None
 
 # --- Streamlit UI ---
-st.title("YouTube to MP3 Converter (API-based)")
+st.title("YouTube to MP3 Converter by Sky")
 
 # Display the default "save" folder (which is basically for reference).
 st.write("**Downloads Folder (for reference):**", st.session_state['save_folder'])
