@@ -63,4 +63,4 @@ def download():
 if __name__ == '__main__':
     # Make sure you have ffmpeg installed, and this environment has yt_dlp
     # e.g. pip install flask yt_dlp
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=False)
